@@ -1192,6 +1192,13 @@
       ],
       "value": ""
     }, {
+      "id": "5da72a06-95d6-454c-89e0-1b26e26bbb80",
+      "comment": "",
+      "command": "//waitForElementEditable",
+      "target": "css=.v-radio:nth-child(4) .v-input--selection-controls__ripple",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "fbb210b3-2e19-4d54-8de3-11217ed4906c",
       "comment": "",
       "command": "click",

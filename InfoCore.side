@@ -408,39 +408,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "41de52ec-e500-48b8-91b8-6240ec3f3f7b",
-      "comment": "",
-      "command": "type",
-      "target": "css=.ng-valid",
-      "targets": [
-        ["css=.ng-valid", "css:finder"],
-        ["xpath=//input[@type='text']", "xpath:attributes"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": "guest@training.com"
-    }, {
-      "id": "2bdb484f-090c-4577-b54d-6af0547c544d",
-      "comment": "",
-      "command": "type",
-      "target": "css=.ng-untouched",
-      "targets": [
-        ["css=.ng-untouched", "css:finder"],
-        ["xpath=//input[@type='password']", "xpath:attributes"],
-        ["xpath=//div[2]/input", "xpath:position"]
-      ],
-      "value": "guestiam"
-    }, {
-      "id": "c9a4414b-2f37-47c3-a997-0a92aac05b33",
-      "comment": "",
-      "command": "click",
-      "target": "css=.form-group:nth-child(1) > .form-control",
-      "targets": [
-        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
-        ["xpath=//input[@type='text']", "xpath:attributes"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "417d5247-86ff-4c93-903c-62ee5b892517",
       "comment": "",
       "command": "type",
@@ -461,7 +428,7 @@
         ["xpath=//input[@type='password']", "xpath:attributes"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
-      "value": "testlab5"
+      "value": "testlab55"
     }, {
       "id": "f60ab469-f48e-466f-b822-0eb5d4917a6e",
       "comment": "",
@@ -484,6 +451,90 @@
         ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
       ],
       "value": ""
+    }]
+  }, {
+    "id": "02ac60d2-e06c-4454-bc1e-114989e02d82",
+    "name": "Login and Logout",
+    "commands": [{
+      "id": "b4501b32-6274-4bb4-a1f9-23b3e76cdc78",
+      "comment": "",
+      "command": "open",
+      "target": "/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e47f0e2-a1b9-4b5e-99cf-ed00433208ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x810",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67cd6ed5-c51d-44b9-951f-ba22bbc29303",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) .mat-button-wrapper",
+      "targets": [
+        ["css=li:nth-child(2) .mat-button-wrapper", "css:finder"],
+        ["xpath=//li[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a022d918-87a9-460f-ad15-92bce73fdde9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-button-wrapper",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper", "css:finder"],
+        ["xpath=//li[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc7c2d2a-2034-4282-87b0-1a692bb97e90",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-valid",
+      "targets": [
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bernd_admin@ctcglobal.com"
+    }, {
+      "id": "0e420fe9-9010-4a6b-93ce-0fefe19c46a5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "testlab5"
+    }, {
+      "id": "637ee9e7-8699-42ac-a1e3-0c32399d0fd0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-valid",
+      "targets": [
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bernd_admin@ctcglobal.com"
+    }, {
+      "id": "e172f09c-c4a4-4ac4-89d7-3bbef69e71d4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "testlab5"
     }]
   }],
   "suites": [{
