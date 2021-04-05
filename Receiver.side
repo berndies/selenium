@@ -21,6 +21,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "67277da5-675f-4013-9c2b-5a58a480ed5d",
+      "comment": "",
+      "command": "store",
+      "target": "testlab3",
+      "targets": [],
+      "value": "my_password"
+    }, {
       "id": "97dcaae5-c2a4-4ddc-aeb4-92f07311f257",
       "comment": "",
       "command": "click",
