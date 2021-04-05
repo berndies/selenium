@@ -1243,6 +1243,158 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "23ea9537-e34f-48e6-b730-91408702aec0",
+    "name": "Upload",
+    "commands": [{
+      "id": "ca84b35e-f407-4e8d-8955-5995ef8c9ac9",
+      "comment": "",
+      "command": "open",
+      "target": "/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9b92ca6-c2ed-4545-aec8-17ab37450070",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1388x810",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "826243da-7e21-42bb-8715-137ab8e873a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(1) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee5eb38c-1a35-477d-bfe4-1b91a230145a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(1) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bseidinger@ctcglobal.com"
+    }, {
+      "id": "678ed8f4-a87c-4734-923a-db050efc9db1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "testlab1"
+    }, {
+      "id": "5a7dcddc-d67f-4f5f-a204-7e4bf928999b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-focus-indicator",
+      "targets": [
+        ["css=.mat-focus-indicator", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb9d6604-705d-4227-bb5a-6f02f909c61c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-focus-indicator",
+      "targets": [
+        ["css=.mat-focus-indicator", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3290b171-a302-4d6f-a478-54cb091fa403",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-icon",
+      "targets": [
+        ["css=.mat-icon", "css:finder"],
+        ["xpath=//mat-icon", "xpath:position"],
+        ["xpath=//mat-icon[contains(.,'menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27cceaf9-762d-4566-9485-923a8649a481",
+      "comment": "Upload Drop Down",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b342674-c976-4e2d-982d-8752cc4e5e1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-list-item:nth-child(1) > .mat-list-item-content",
+      "targets": [
+        ["css=.mat-list-item:nth-child(1) > .mat-list-item-content", "css:finder"],
+        ["xpath=//mat-nav-list/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fbd4345-5d48-4560-b39b-f844e29907ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-card-subtitle > .ng-star-inserted",
+      "targets": [
+        ["css=.mat-card-subtitle > .ng-star-inserted", "css:finder"],
+        ["xpath=//mat-card-subtitle/button", "xpath:position"],
+        ["xpath=//button[contains(.,'cloud_upload Upload')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4126631-feda-4a83-a39e-29d42579c62a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-card-subtitle > .ng-star-inserted",
+      "targets": [
+        ["css=.mat-card-subtitle > .ng-star-inserted", "css:finder"],
+        ["xpath=//mat-card-subtitle/button", "xpath:position"],
+        ["xpath=//button[contains(.,'cloud_upload Upload')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21b3e211-6732-44ad-80b6-97225e4dc2f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-card-subtitle > .ng-star-inserted",
+      "targets": [
+        ["css=.mat-card-subtitle > .ng-star-inserted", "css:finder"],
+        ["xpath=//mat-card-subtitle/button", "xpath:position"],
+        ["xpath=//button[contains(.,'cloud_upload Upload')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3b4d9d3-a592-4b4f-8312-7f33e3ad5656",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-card-subtitle/button",
+      "targets": [
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//mat-card-subtitle/button", "xpath:position"],
+        ["xpath=//button[contains(.,'cloud_upload Upload')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee6987a8-03f4-44e1-951e-69dd387a03c2",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=.cdk-focused",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "0ac75974-13ae-45f8-b4b6-e34d8a15f303",
