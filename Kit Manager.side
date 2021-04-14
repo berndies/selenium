@@ -5,7 +5,7 @@
   "url": "http://10.3.14.159:8080",
   "tests": [{
     "id": "eba8a780-b4fe-4b7c-8748-0714dc311ae9",
-    "name": "Login Bernd and Download",
+    "name": "Login Bernd and Download 1.0.4",
     "commands": [{
       "id": "53c873dc-bec8-42eb-8252-1517ed7db0ce",
       "comment": "",
@@ -286,7 +286,7 @@
     }]
   }, {
     "id": "2d7e5d2a-c718-4b9c-ad4c-5d93c4fd7937",
-    "name": "Login Bernd and About",
+    "name": "Login Bernd and About 1.0.5-test",
     "commands": [{
       "id": "e2d55c7b-b4b0-407e-a64e-8cd62e98ff39",
       "comment": "",
@@ -426,6 +426,57 @@
         ["xpath=//div[4]/div[2]/div", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "499b45a1-ac22-4f5a-8d91-329000d463d9",
+      "comment": "",
+      "command": "//storeAttribute",
+      "target": "b1",
+      "targets": [],
+      "value": "ba"
+    }, {
+      "id": "abc6ac00-4d04-4ee5-ab77-3b366655427f",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//modal-header[contains(.,'FTTA Version: 1.0.5-test')]",
+      "targets": [
+        ["css=modal-header", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/span/div/div/modal-header", "xpath:idRelative"],
+        ["xpath=//modal-header", "xpath:position"],
+        ["xpath=//modal-header[contains(.,'FTTA Version: 1.0.5-test')]", "xpath:innerText"]
+      ],
+      "value": "bt"
+    }, {
+      "id": "1081edc1-1edf-4c3f-9059-9ad64360e0e8",
+      "comment": "",
+      "command": "echo",
+      "target": "${bt}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cda5e8ea-7ff2-4c34-b0e1-d28cf42e1235",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//modal-header[contains(.,'FTTA Version: 1.0.5-test')]",
+      "targets": [],
+      "value": "FTTA Version: 1.0.5-test"
+    }, {
+      "id": "14185ac7-8608-46c5-b032-ec8ea919d53e",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.v-btn--contained > .v-btn__content",
+      "targets": [
+        ["css=.v-btn--contained > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/span/div/div/modal-body/div/button/span", "xpath:idRelative"],
+        ["xpath=//modal-body/div/button/span", "xpath:position"]
+      ],
+      "value": "bt2"
+    }, {
+      "id": "660cb59f-4994-4dc4-92c0-8d43dcbd42c6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.v-btn--contained > .v-btn__content",
+      "targets": [],
+      "value": "OK"
     }]
   }, {
     "id": "1ab3fa16-b020-49e8-a41a-5d27bb21b6af",
@@ -622,7 +673,7 @@
     }]
   }, {
     "id": "d7b44382-a16c-47d3-8f70-03c1a9cbf7e6",
-    "name": "Login Guest Wibdy",
+    "name": "Login Guest Wibdy ",
     "commands": [{
       "id": "15b592f8-5c14-4995-9691-9fe323369235",
       "comment": "",
@@ -725,6 +776,180 @@
         ["xpath=//button[@id='btnLogin']/span", "xpath:idRelative"],
         ["xpath=//div[3]/button/span", "xpath:position"]
       ],
+      "value": ""
+    }]
+  }, {
+    "id": "50a883a6-488f-4a96-8e6a-cacb9d68faee",
+    "name": "Login Bernd and Download 1.0.5",
+    "commands": [{
+      "id": "480c54f4-f94c-4584-989a-3bd51ee85a3e",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc89a11a-096f-495e-8d00-4a9b6ef8d141",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8ef2279-8ad9-490b-9af0-ec2e89f9aee4",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtUsername",
+      "targets": [
+        ["id=txtUsername", "id"],
+        ["name=username", "name"],
+        ["css=#txtUsername", "css:finder"],
+        ["xpath=//input[@id='txtUsername']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/div/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "119dfed5-e076-4788-86fc-ba1879f87287",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUsername",
+      "targets": [
+        ["id=txtUsername", "id"],
+        ["name=username", "name"],
+        ["css=#txtUsername", "css:finder"],
+        ["xpath=//input[@id='txtUsername']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/div/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bseidinger@ctcglobal.com"
+    }, {
+      "id": "f978215c-93b7-479c-9da1-238a04db29e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=password", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/div/form/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1504b7d5-2d14-46cd-bf45-a977ce8949b8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnLogin",
+      "targets": [
+        ["id=btnLogin", "id"],
+        ["css=#btnLogin", "css:finder"],
+        ["xpath=//button[@id='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "031dbf82-45aa-4b80-bbf1-15a21452a503",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=password", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/div/form/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "testlab3"
+    }, {
+      "id": "7f2653a7-5a83-4a76-9ec3-2569f0906113",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnLogin",
+      "targets": [
+        ["id=btnLogin", "id"],
+        ["css=#btnLogin", "css:finder"],
+        ["xpath=//button[@id='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b877521b-89c1-4716-9adf-8b41ee874bac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-expansion-panel:nth-child(2) > .v-expansion-panel-header",
+      "targets": [
+        ["css=.v-expansion-panel:nth-child(2) > .v-expansion-panel-header", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "509c2425-0517-4ec1-a889-b42aebe0b267",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn--contained > .v-btn__content",
+      "targets": [
+        ["css=.v-btn--contained > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "072035cf-b266-4d15-92bf-28ddef08d7d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-73",
+      "targets": [
+        ["id=input-73", "id"],
+        ["css=#input-73", "css:finder"],
+        ["xpath=//input[@id='input-73']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26389426-efc7-4683-8f0a-b52be751594b",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-73",
+      "targets": [
+        ["id=input-73", "id"],
+        ["css=#input-73", "css:finder"],
+        ["xpath=//input[@id='input-73']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testlab1"
+    }, {
+      "id": "45d5602b-583b-47c9-9003-277bccbf9f36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(3) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(3) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[3]/div/div/div[3]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8adc8e2d-f7cb-4b82-b957-df35f47f39f9",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.v-icon:nth-child(3)",
+      "targets": [],
+      "value": "bernd"
+    }, {
+      "id": "d40ed2a3-667f-44af-b9fe-6b66b6369fbf",
+      "comment": "",
+      "command": "echo",
+      "target": "${bernd}",
+      "targets": [],
       "value": ""
     }]
   }],
