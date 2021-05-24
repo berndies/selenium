@@ -110,6 +110,13 @@
     "id": "92a82d5e-8490-4a09-9a18-d0fdb5526088",
     "name": "New Confirmation + Insp",
     "commands": [{
+      "id": "4e398bc1-fe88-4535-bddf-0490e706eecf",
+      "comment": "",
+      "command": "times",
+      "target": "20",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "39977712-2620-4c86-a808-7ab337200805",
       "comment": "",
       "command": "open",
@@ -475,7 +482,7 @@
     }, {
       "id": "52452f6c-5620-45e1-8ff8-9a5c19c605ad",
       "comment": "",
-      "command": "",
+      "command": "end",
       "target": "",
       "targets": [],
       "value": ""
@@ -624,7 +631,7 @@
       "command": "verifyText",
       "target": "css=modal-header",
       "targets": [],
-      "value": "InfoCore Kit Version: 1.0.5-test"
+      "value": "InfoCore Kit Version: 1.0.6-test"
     }, {
       "id": "960c0fd9-053a-4dda-b02a-fc4261ad1eb5",
       "comment": "",
