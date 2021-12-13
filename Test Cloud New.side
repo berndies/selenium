@@ -1,0 +1,161 @@
+{
+  "id": "b629f651-1095-4ce5-9c82-4a9f32d94b11",
+  "version": "2.0",
+  "name": "Test Cloud New",
+  "url": "https://infocoretest.ctcglobal.com",
+  "tests": [{
+    "id": "10cec679-8b04-4ef4-8e7d-f9f297dc1e78",
+    "name": "Admin and View Profile",
+    "commands": [{
+      "id": "4bf6a939-54e9-4730-9fe1-7a81789f9192",
+      "comment": "",
+      "command": "open",
+      "target": "/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "786cdb80-1e22-49b1-9c6c-49f397298971",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "596d4d11-576e-4fd3-bd14-d8c7b5eb2c54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(1) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c948307d-2a35-4bcc-ba02-964af8aa86e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=ng-component",
+      "targets": [
+        ["css=ng-component", "css:finder"],
+        ["xpath=//ng-component", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79cb62e8-4c72-40ee-b667-d7bc048a12ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-button-wrapper",
+      "targets": [
+        ["css=.mat-button-wrapper", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93e32681-699d-4a56-b218-2498530c5a7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-button-wrapper",
+      "targets": [
+        ["css=.mat-button-wrapper", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f4605fe-51c6-4498-acab-19cddf499a51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-icon",
+      "targets": [
+        ["css=.mat-icon", "css:finder"],
+        ["xpath=//mat-icon", "xpath:position"],
+        ["xpath=//mat-icon[contains(.,'menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ca7c4e3-68d2-46d2-8f30-33c856889beb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-list-item:nth-child(7) > .mat-list-item-content",
+      "targets": [
+        ["css=.mat-list-item:nth-child(7) > .mat-list-item-content", "css:finder"],
+        ["xpath=//a[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fad6e257-9617-4c09-bcc3-af9a21850bcc",
+    "name": "Admin Login and View Main Menu",
+    "commands": [{
+      "id": "206ac850-aa6f-4466-956c-cea972794803",
+      "comment": "",
+      "command": "open",
+      "target": "/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7755a4f2-9bb2-409e-9fea-53e833cff444",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc5ddc82-6224-4684-a3e8-1717ffeb7200",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-button-wrapper",
+      "targets": [
+        ["css=.mat-button-wrapper", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22155a14-ea8b-45cc-9234-ad249f46955d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-icon",
+      "targets": [
+        ["css=.mat-icon", "css:finder"],
+        ["xpath=//mat-icon", "xpath:position"],
+        ["xpath=//mat-icon[contains(.,'menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0b3322c-7901-47d6-83ba-39604e59d136",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-icon",
+      "targets": [
+        ["css=.mat-icon", "css:finder"],
+        ["xpath=//mat-icon", "xpath:position"],
+        ["xpath=//mat-icon[contains(.,'menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb6d09f-b46d-4073-8ec6-2613d0ae2e9f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-icon",
+      "targets": [
+        ["css=.mat-icon", "css:finder"],
+        ["xpath=//mat-icon", "xpath:position"],
+        ["xpath=//mat-icon[contains(.,'menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "220c6be4-62da-4c69-93ff-3e48ef1d7d9e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["10cec679-8b04-4ef4-8e7d-f9f297dc1e78"]
+  }],
+  "urls": ["https://infocoretest.ctcglobal.com/"],
+  "plugins": []
+}
